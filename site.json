@@ -1,37 +1,41 @@
 {
   "template": [
     "navigation",
-    "logo",
+    "header",
     "bio",
     "releases",
-    "socials",
-    "gallery"
+    "gallery",
+    "socials"
   ],
   "css": {
-    "theme": "dark",
-    "primary_color": "#2563eb",
-    "background_color": "#000000",
-    "background_image": null,
-    "background_size": "cover",
-    "background_position": "center"
+    "--primary-color": "#2563eb",
+    "--secondary-color": "#000000",
+    "--tertiary-color": "#000000",
+    "--quaternary-color": "#000000",
+    "--text-color": "#000000",
+    "--logo-width": "25%"
   },
   "head": {
+    "title": null,
+    "description": null,
+    "keywords": null,
     "google_analytics": null
   },
   "app": {
-    "artist_name": "Your Artist Name",
-    "tagline": "Welcome to my site",
     "logo": null,
-    "bio": "Tell your story here. Share your journey, your music, and what drives you as an artist.",
-    "navigation": {
-      "Home": "#",
-      "Music": "#releases",
-      "About": "#bio",
-      "Gallery": "#gallery",
-      "Contact": "#socials"
+    "bandsintown": null,
+    "bio": {
+      "name": "Your Artist Name",
+      "genre": null,
+      "about": "Tell your story here. Share your journey, your music, and what drives you as an artist."
     },
     "releases": [],
     "socials": {},
     "gallery": {}
+  },
+  "headerOptions": {
+    "showName": true,
+    "showGenre": true,
+    "showLogo": true
   }
 }
