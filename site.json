@@ -1,0 +1,37 @@
+{
+  "template": [
+    "navigation",
+    "logo",
+    "bio",
+    "releases",
+    "socials",
+    "gallery"
+  ],
+  "css": {
+    "theme": "dark",
+    "primary_color": "#2563eb",
+    "background_color": "#000000",
+    "background_image": null,
+    "background_size": "cover",
+    "background_position": "center"
+  },
+  "head": {
+    "google_analytics": null
+  },
+  "app": {
+    "artist_name": "Your Artist Name",
+    "tagline": "Welcome to my site",
+    "logo": null,
+    "bio": "Tell your story here. Share your journey, your music, and what drives you as an artist.",
+    "navigation": {
+      "Home": "#",
+      "Music": "#releases",
+      "About": "#bio",
+      "Gallery": "#gallery",
+      "Contact": "#socials"
+    },
+    "releases": [],
+    "socials": {},
+    "gallery": {}
+  }
+}
